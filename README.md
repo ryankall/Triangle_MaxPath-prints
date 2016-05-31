@@ -9,7 +9,7 @@ Maximum path sum II
 ```html
 By starting at the top of the triangle below and moving to adjacent numbers on the row below, the maximum total from top to bottom is 23.
 
-  <FONT COLOR="#FF0000">text text text text text</FONT> 3
+  <FONT COLOR="#FF0000">3</FONT> 3
   7 4
  2 4 6
 8 5 9 3
