@@ -40,7 +40,7 @@ Command line inputs for linux:
 ```
 To see the time is takes
 ```
-time ./Maxpath triangleLarge
+time ./Maxpath triangleLarge.txt
 ```
 
 
