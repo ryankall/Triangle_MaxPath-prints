@@ -100,9 +100,6 @@ int main(int argc, char** argv) {
     
     std::cout<< "The maximum path: " << max <<std::endl;
     
-    //print.printTri(pathKeeper);
-    
-    
     /*
      *back track to find path
      */
@@ -120,7 +117,6 @@ int main(int argc, char** argv) {
      * Loop that head backward up the triangle
      */
     for(int i = sizeP; i > 0 ; i--){
-        
         
         if(posA == 0){//handles right bound
             int neg = pathKeeper[i][posA] - pathKeeper[i-1][posA];
@@ -152,10 +148,11 @@ int main(int argc, char** argv) {
     path[0].first = triangle[0][0];
     path[0].second = 0;
     
-    //print.printTriMaxPath(triangle, path);// **this function is only for linux Console
-    
-    
     print.printVector(path);
+    
+    //print.printTri(pathKeeper);
+    //print.printTri(triangle);
+    //print.printTriMaxPath(triangle, path);// **this function is only for linux Console, it prints the path red in down the triangle
     
     return 0;
 }
