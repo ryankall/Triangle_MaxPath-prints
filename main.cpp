@@ -149,6 +149,8 @@ int main(int argc, char** argv) {
     path[0].second = 0;
     
     print.printVector(path);
+    std::cout<<std::endl;
+    std::cout<<"Note**: if you wish to see the triangles uncomment l55-157 in main.cpp and recompile"
     
     //print.printTri(pathKeeper);
     //print.printTri(triangle);
