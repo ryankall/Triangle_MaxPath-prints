@@ -35,8 +35,8 @@ Space complexity is O(n)
 
 Command line inputs for linux:
 ```
-./Maxpath triangleSmall
-./Maxpath trianleLarge
+./Maxpath triangleSmall.txt
+./Maxpath trianleLarge.txt
 ```
 To see the time is takes
 ```
